@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel = "stylesheet" href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<body id = grad>
+
+<div class = "box div-1">
+
+    <div class = "floatbox">
+        <a href="index.html">Home</a>
+    </div>
+
+    <div class = "floatbox">
+        <a href="about.html">About</a>
+    </div>
+ 
+    
+    <div class = "floatbox">
+        <a href="social.html">Social Info</a>
+    </div>
+ 
+</div>
+
+
+<div class = "drobox">
+    <button class = "navbutton">
+        Click to Navigate
+    </button>
+
+
+     <div class = "dropdown">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="social.html">Social Info</a>
+     </div>
+</div>
+
+<!-- This area is a sidebox that is meant to display buttons that can be used to bring a different slection of content to view-->
+
+<div class = "sidebox">
+    <div class = "sideline">
+        <button class="my-btn" id="btn-1" onclick="addParagraph('This is my project for SFML','walkinthepark.png'); addImage('https://github.com/Electrical-Fire/CS151');
+        writeDescrip('This project was one that I created using SFML.It is not really a game so much as an excercise in humiliation. You walk around an empty field until you fall into  and press a button to escape. Some scholars see this as a metaphor for the human condition. citation needed');">SFML</button>
+        <script src="script.js"></script>
+    </div>
+
+    <div class = "sideline">
+            
+        <button class="my-btn" id="btn-1" onclick="addParagraph('Lexer Project','lexer.png'); addImage('https://github.com/Synaptric/Lexer-Project'); 
+        writeDescrip('This project was a Lexer made to break the down code into the parts that give it defintion. This project demonstrates that I am capable of understanding the C langauge at a basic level')">Lexer</button>
+        <script src="script.js"></script>
+    </div>
+
+    
+    <div class = "sideline">
+            
+        <button class="my-btn" id="btn-1" onclick="addParagraph('Battleship Project','Battleship.png'); addImage('https://github.com/CS150PA-Spring2022/pa8_battleship-bismark');
+        writeDescrip('This was the first major project  that I was able to complete using the C language.It is a version of battleship that is run through the terminal you selected coordiantes in order to sink enemy ships while the computer attempts to sink your ships. I worked on this project with Zachery DeLuca, Kellen,Bill and another persons whose name I cannot remember.')">Battleship</button>
+        <script src="script.js"></script>
+    </div>
+
+
+
+</div>
+
+
+    <div class = "description">
+        <p id = "descrip">  This page demonstrates the various projects that I have worked on for my classes. Click the button to see an image of the project.  
+            Click the github logo to see to the project on github.
+        </p>
+    </div>
+
+
+
+</body>
+
+
+
+
+
+</html>
